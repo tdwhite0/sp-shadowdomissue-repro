@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.19.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.3",
+    "libraryName": "shadow-accessibility-repro",
+    "libraryId": "846fff97-4539-4702-b3da-55773d713a4d",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "shadow-accessibility-repro",
+    "solutionShortDescription": "shadow-accessibility-repro description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

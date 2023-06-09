@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "shadow-dom-accessability-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/shadowDomAccessability/ShadowDomAccessabilityWebPart.js",
+          "manifest": "./src/webparts/shadowDomAccessability/ShadowDomAccessabilityWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ShadowDomAccessabilityWebPartStrings": "lib/webparts/shadowDomAccessability/loc/{locale}.js"
+  }
+}

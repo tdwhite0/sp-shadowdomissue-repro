@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "shadow-accessibility-repro-client-side-solution",
+    "id": "846fff97-4539-4702-b3da-55773d713a4d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "shadow-accessibility-repro description"
+      },
+      "longDescription": {
+        "default": "shadow-accessibility-repro description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "shadow-accessibility-repro Feature",
+        "description": "The feature that activates elements of the shadow-accessibility-repro solution.",
+        "id": "d7f5e1eb-9f68-4b7c-bef0-edc46c086b1e",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/shadow-accessibility-repro.sppkg"
+  }
+}
